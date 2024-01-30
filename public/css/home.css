@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('../imgs/bible.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aya
+  {
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 50px;
+    margin-top: -20%;
+    max-width: 80%;
+    line-height: 40px;
+    text-align: right;
+    font-weight: bold;
+  }
+
+
+  @media screen and (max-width: 1366px) {
+  }
+  @media screen and (max-width: 351px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-image: url('../imgs/bible.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .aya
+      {
+        color: white;
+        font-size: 18px;
+        background-color: rgba(0,0,0,0.6);
+        padding: 10px;
+        margin-top: -80%;
+        max-width: 90%;
+        line-height: 30px;
+        text-align: right;
+        font-weight: bold;
+      }
+      
+
+  }
+  @media screen and (min-width: 2048px) {
+  }
+  @media screen and (min-width: 360px) and (max-width: 380px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-image: url('../imgs/bible.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .aya
+      {
+        color: white;
+        font-size: 18px;
+        background-color: rgba(0,0,0,0.6);
+        padding: 10px;
+        margin-top: -80%;
+        max-width: 90%;
+        line-height: 30px;
+        text-align: right;
+        font-weight: bold;
+      }
+  }
+  @media screen and (min-width: 381px) and (max-width: 400px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-image: url('../imgs/bible.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .aya
+      {
+        color: white;
+        font-size: 18px;
+        background-color: rgba(0,0,0,0.6);
+        padding: 10px;
+        margin-top: -80%;
+        max-width: 90%;
+        line-height: 30px;
+        text-align: right;
+        font-weight: bold;
+      }
+  }
+  @media screen and (min-width: 401px) and (max-width: 420px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-image: url('../imgs/bible.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .aya
+      {
+        color: white;
+        font-size: 18px;
+        background-color: rgba(0,0,0,0.6);
+        padding: 10px;
+        margin-top: -80%;
+        max-width: 90%;
+        line-height: 30px;
+        text-align: right;
+        font-weight: bold;
+      }
+
+  }
+  @media screen and (min-width: 421px) and (max-width: 440px){
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-image: url('../imgs/bible.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .aya
+      {
+        color: white;
+        font-size: 18px;
+        background-color: rgba(0,0,0,0.6);
+        padding: 10px;
+        margin-top: -80%;
+        max-width: 90%;
+        line-height: 30px;
+        text-align: right;
+        font-weight: bold;
+      }
+
+  }
