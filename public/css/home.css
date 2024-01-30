@@ -148,9 +148,9 @@ body {
         overflow: hidden;
         background-image: url('../imgs/bible.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
         background-size: cover;
-        background-position: center;
+        background-position: 57%;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 74vh;
         display: flex;
         align-items: center;
         justify-content: center;
