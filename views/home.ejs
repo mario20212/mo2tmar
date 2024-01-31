@@ -24,7 +24,6 @@
         '"لاَ تُحِبُّوا الْعَالَمَ وَلاَ الأَشْيَاءَ الَّتِي فِي الْعَالَمِ. إِنْ أَحَبَّ أَحَدٌ الْعَالَمَ فَلَيْسَتْ فِيهِ مَحَبَّةُ الآبِ." (1 يو 2: 15).',
         '"لاَ تَخَفْ، أَيُّهَا الْقَطِيعُ الصَّغِيرُ، لأَنَّ أَبَاكُمْ قَدْ سُرَّ أَنْ يُعْطِيَكُمُ الْمَلَكُوتَ." (لو 12: 32).',
         '"أَجَابَ يَسُوعُ وَقَالَ لَهُ: «إِنْ أَحَبَّنِي أَحَدٌ يَحْفَظْ كَلاَمِي، وَيُحِبُّهُ أَبِي، وَإِلَيْهِ نَأْتِي، وَعِنْدَهُ نَصْنَعُ مَنْزِلًا." (يو 14: 23).',
-        '"أَتَظُنُّ أَنِّي لاَ أَسْتَطِيعُ الآنَ أَنْ أَطْلُبَ إِلَى أَبِي فَيُقَدِّمَ لِي أَكْثَرَ مِنِ اثْنَيْ عَشَرَ جَيْشًا مِنَ الْمَلاَئِكَةِ؟" (مت 26: 53).',
         '"اَلَّذِي لَمْ يُشْفِقْ عَلَى ابْنِهِ، بَلْ بَذَلَهُ لأَجْلِنَا أَجْمَعِينَ، كَيْفَ لاَ يَهَبُنَا أَيْضًا مَعَهُ كُلَّ شَيْءٍ؟" (رو 8: 32).',
         '"اَلَّذِي عِنْدَهُ وَصَايَايَ وَيَحْفَظُهَا فَهُوَ الَّذِي يُحِبُّنِي، وَالَّذِي يُحِبُّنِي يُحِبُّهُ أَبِي، وَأَنَا أُحِبُّهُ، وَأُظْهِرُ لَهُ ذَاتِي»." (يو 14: 21).',
         '"فِي بَيْتِ أَبِي مَنَازِلُ كَثِيرَةٌ، وَإِلاَّ فَإِنِّي كُنْتُ قَدْ قُلْتُ لَكُمْ. أَنَا أَمْضِي لأُعِدَّ لَكُمْ مَكَانًا،" (يو 14: 2).',
@@ -48,25 +47,12 @@
 
         // Determine the range based on the day difference
         const startIndex = (dayDifference % 3) * 4;
-        const endIndex = startIndex + 3;
-        
-        
+        const endIndex = startIndex + 9;
+        // Generate a random index within the specified range
+        const randomIndex = getRandomInt(startIndex, endIndex);
 
-      
-
-            
-        
-
-
-        
-        
-
-
-        // // Generate a random index within the specified range
-        // const randomIndex = getRandomInt(startIndex, endIndex);
-
-        // // Display the selected ayah
-        // document.getElementById('aya').innerText = ayat[randomIndex];
+        // Display the selected ayah
+        document.getElementById('aya').innerText = ayat[randomIndex];
     </script>
 </body>
 </html>
