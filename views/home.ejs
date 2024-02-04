@@ -51,8 +51,8 @@
         const dayDifference = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
 
         // Determine the range based on the day difference
-        const startIndex = (dayDifference % 3) * 4;
-        const endIndex = startIndex + 9;
+        const startIndex = 10;
+        const endIndex = 10 + 9;
         // Generate a random index within the specified range
         const randomIndex = getRandomInt(startIndex, endIndex);
 
